@@ -9,11 +9,11 @@ import os
 
 port = int(os.environ.get('PORT', 5000))
 
-app.run(host='0.0.0.0', port=port, debug=True)
 
 # creating flask object
 app = Flask(__name__)
 
+app.run(host='0.0.0.0', port=port, debug=True)
 
 # configuration of mail
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
