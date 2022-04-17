@@ -7,7 +7,7 @@ from flask_mail import Mail, Message
 from goose3 import Goose
 import os
 
-port = int(os.environ.get('PORT', 5000))
+port = int(os.environ.get('PORT', 9000))
 
 
 # creating flask object
